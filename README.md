@@ -59,5 +59,6 @@ This document answers the questions required in the assignment.
 - **Lowest WAGE_YEAR3 demographic:** appears in the **Race** category
 ![High Low wage](images/High_Low_wage.png)
 - **People with negative wage trends:** None, all demographics show positive wage growth between Year 1 and Year 4  
-- **People with positive wage trends:** Gender demographic
+- **People with positive wage trends:** All groups show positive wage trends, with the largest number of increases observed in ALL and Gender categories.
 ![Wage Trend](images/Wage_Trend.png)
+![Wage Trend Ranking](images/Wage_Trend_Rank.png)
