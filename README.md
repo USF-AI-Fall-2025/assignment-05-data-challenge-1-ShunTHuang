@@ -13,6 +13,7 @@ This document answers the questions required in the assignment.
 - **Missing values:** Yes, `DISTRICT_CODE` contain missing values.
 - **Numeric columns:** `DISTRICT_CODE`, `WAGE_YEAR1`, `WAGE_YEAR2`, `WAGE_YEAR3`, `WAGE_YEAR4`
 - **Categorical columns:** `DISTRICT_TYPE`, `DISTRICT_NAME`, `ACADEMIC_YEAR`, `DEMO_CATEGORY`, `STUDENT_POPULATION`, `AWARD_CATEGORY`
+
 ![Data Quality](images/Data_Quality.png)
 
 ---
