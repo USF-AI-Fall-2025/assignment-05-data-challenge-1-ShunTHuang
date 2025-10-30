@@ -13,7 +13,7 @@ This document answers the questions required in the assignment.
 - **Missing values:** Yes, `DISTRICT_CODE` contain missing values.
 - **Numeric columns:** `DISTRICT_CODE`, `WAGE_YEAR1`, `WAGE_YEAR2`, `WAGE_YEAR3`, `WAGE_YEAR4`
 - **Categorical columns:** `DISTRICT_TYPE`, `DISTRICT_NAME`, `ACADEMIC_YEAR`, `DEMO_CATEGORY`, `STUDENT_POPULATION`, `AWARD_CATEGORY`
-![Data Quality](images/Data Quality.png)
+![Data Quality](images/Data_Quality.png)
 
 ---
 
@@ -26,7 +26,7 @@ This document answers the questions required in the assignment.
   - `STUDENT_POPULATION`: 15 unique values and 10 of them are (`None Reported`, `Black or African American`, `Did Not Experience Homelessness in K-12`, `American Indian or Alaska Native`, `Native Hawaiian or Other Pacific Islander`, `All`, `Two or More Races`, `Foster Youth`, `Female`, `White`) 
   - `AWARD_CATEGORY`: 4 unique values (`Bachelor's Degree - Did Not Transfer`, `Associate Degree`, `Community College Certificate`, `Bachelor's Degree - Transferred`)
 - **Range of numeric columns:** Wages typically between `0` and `~153910`,
-![Range of numeric columns](images/Range of numeric columns.png)
+![Range of numeric columns](images/Range_of_numeric_columns.png)
 - **Distribution:** Wages are **right-skewed** (most districts earn lower wages)
 ![WAGE_YEAR1](images/WAGE_YEAR1.png)
 ![WAGE_YEAR2](images/WAGE_YEAR2.png)
@@ -49,14 +49,14 @@ This document answers the questions required in the assignment.
 - **DISTRICT_TYPE → DISTRICT_NAME** Each district name belongs to a specific district type.
 - **WAGE_YEAR1 → WAGE_YEAR2 → WAGE_YEAR3 → WAGE_YEAR4** They are **strongly and positively correlated** with each other (correlation ≈ 0.98–0.99)
 - **Wage–District Interaction** Some moderate positive and negative correlations appear between **wage variables** and **district types**. This may suggest that certain district types tend to be associated with **higher or lower wage levels**. 
-![Heat Map](images/Heat Map.png)
+![Heat Map](images/Heat_Map.png)
 
 ---
 
 ## CS 562 Specific Questions
 - **Highest WAGE_YEAR3 demographic:** appears in the **All** category  
 - **Lowest WAGE_YEAR3 demographic:** appears in the **Race** category
-![Hight Lowe wage](images/Hight Lowe wage.png)
+![High Low wage](images/High_Low_wage.png)
 - **People with negative wage trends:** None, all demographics show positive wage growth between Year 1 and Year 4  
 - **People with positive wage trends:** Gender demographic
-![Wage Trend](images/Wage Trend.png)
+![Wage Trend](images/Wage_Trend.png)
